@@ -48,7 +48,7 @@ h2 {
     padding: 5px 0;
     padding-bottom: 20px;
     border-bottom: 3px solid #ddd;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -140,7 +140,6 @@ p {
 #image {
     float: left;
     width: 200px;
-    margin-top: 10px;
     margin-right: 25px;
 }
 
@@ -252,13 +251,17 @@ input[type=submit] {
 
 .portfolio {
     width: 274px;
-    margin: 10px 0 25px;
+    margin: 0 0 35px;
     position: relative;
     float: left;
 }
 
 .portfolio:nth-child(even) {
     margin-right: 40px;
+}
+
+.portfolio:last-child {
+    margin-bottom: 20px;
 }
 
 .portimage {
@@ -285,9 +288,55 @@ footer {
 
 @media screen and (max-width: 980px) {
 
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    .container {
+        width: 730px;
+    }
+
+    #main {
+        width: 420px;
+    }
+
+    #image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #bio {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #formblock {
+        margin-bottom: 0;
+    }
+
+    .portfolio {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 40px
+    }
+
+    .portimage {
+        width: 100%;
+        max-width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+    }
 
     #name {
         margin-left: 20px;
@@ -301,10 +350,6 @@ footer {
         padding: 0;
     }
 
-    #title {
-        padding-bottom: 10px;
-    }
-
     .wrapper {
         padding: 20px 20px;
         padding-top: 130px;
@@ -316,7 +361,7 @@ footer {
 
     .portfolio {
         margin: 0;
-        width: 46%;
+        width: 46.9%;
         margin-bottom: 40px;
     }
 
@@ -334,12 +379,6 @@ footer {
         padding: 0;
         margin-right: 20px;
         margin-bottom: 20px;
-    }
-
-    #bio {
-        width: 100%;
-        padding: 0;
-        margin: 0;
     }
     
     #links {
@@ -386,7 +425,7 @@ footer {
     }
 
     #image {
-        max-width: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         margin-bottom: 20px;
