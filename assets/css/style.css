@@ -1,0 +1,409 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url("../images/whirlpool/whirlpool.png");
+    padding: 0;
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -105px;
+}
+
+footer,
+.push {
+  height: 105px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    color: #4aaaa5;
+    font-weight: bold;
+    padding: 5px 0;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #ddd;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: #4aaaa5;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 0;
+    background-color: #4aaaa5;
+}
+
+/* White header background */
+header {
+    position: fixed;
+    z-index: 99;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    margin-bottom: 38px;
+    margin: 0 0 30px;
+    overflow: auto;
+}
+
+#name {
+    background-color: #4aaaa5;
+    float: left;
+    padding: 0 20px;
+    height: 90px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 90px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Nav */
+nav {
+    float: right;
+    margin-top: 25px;
+    line-height: 34px;
+}
+
+nav a {
+    padding-left: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+    border-left: 1px solid #ccc;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+nav a:hover {
+    color: #4aaaa5;
+}
+
+p {
+    line-height: 34px;
+}
+
+#main-container {
+    padding-top: 130px;
+}
+
+/* Main content */
+#main {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin: 0 0 40px;
+}
+
+#image {
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+#bio {
+    margin: 0 10px 10px 10px;
+    line-height: 150%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+}
+
+/* Side bar */
+#links {
+    float: right;
+    width: 100%;
+    max-width: 270px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: 40px;
+    padding: 30px;
+}
+
+#connect {
+    border-bottom: 2px solid #ddd;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Github icon */
+#link1 {
+    float: left;
+    width: 60px;
+}
+
+/* LinkedIn icon */
+#link2 {
+    margin-left: 14px;
+    margin-right: 14px;
+    float: left;
+    width: 60px;
+}
+
+/* Stackoverflow icon */
+#link3 {
+    float: left;
+    width: 60px;
+}
+
+/* Start of Contact style */
+#formblock {
+    float: left;
+    margin-bottom: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+}
+
+/* Text form */
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.form:focus {
+    border-color: #4aaaa5;
+    outline: none;
+}
+
+/* Form for message */
+#contact_msg {
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#contact_msg:focus {
+    border-color: #4aaaa5;
+    outline: none;
+}
+
+/* Submit button */
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 20px 0 10px 0;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #345856;
+}
+
+.portfolio {
+    width: 274px;
+    margin: 10px 0 25px;
+    position: relative;
+    float: left;
+}
+
+.portfolio:nth-child(even) {
+    margin-right: 40px;
+}
+
+.portimage {
+    width: 100%;
+}
+
+.porttitle {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    clear: both;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #name {
+        margin-left: 20px;
+    }
+
+    nav {
+        margin-right: 20px;
+    }
+
+    #main-container {
+        padding: 0;
+    }
+
+    #title {
+        padding-bottom: 10px;
+    }
+
+    .wrapper {
+        padding: 20px 20px;
+        padding-top: 130px;
+    }
+
+    #main {
+        max-width: 768px;
+    }
+
+    .portfolio {
+        margin: 0;
+        width: 46%;
+        margin-bottom: 40px;
+    }
+
+    .portfolio:last-child {
+        margin-bottom: 20px;
+    }
+
+    .portimage {
+        max-width: 100%;
+    }
+
+    #image {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    #bio {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #links {
+        float: left;
+        max-width: 100%;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    #formblock {
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+        margin-bottom: 0;
+    }
+    #name {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0;
+        margin: 20px 0;
+    }
+
+    nav a {
+        float: left;
+        width: 33.33%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        line-height: 18px;
+    }
+
+    .wrapper {
+        padding: 20px 20px;
+    }
+
+    #image {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    
+    .portfolio {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 40px
+    }
+
+    .portimage {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .portfolio:last-child {
+        margin-bottom: 10px;
+    }
+}
